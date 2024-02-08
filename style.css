@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.left{
+    width: 45%;
+}
+.right{
+    width:55%;
+    padding: 20px 40px 20px 30px;
+}
+#strike{
+    color: red;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+#sp{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(6, 68, 6);
+}
+.title{
+    font-weight: 900;
+    font-family: "Fraunces", serif;
+    margin-bottom: 20px;
+}
+.cardname{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+}
+.desc{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: small;
+    
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    border: 1px solid black;  
+    border-radius: 30px;
+    overflow: hidden;
+}
+.button{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: green;
+}
+.button:hover{
+    background-color: rgb(6, 49, 6);
+}
